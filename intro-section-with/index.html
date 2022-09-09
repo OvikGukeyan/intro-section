@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue&family=Merriweather:ital@0;1&family=Space+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+  <header id="header">
+    <div class="logo">
+      <img src="images/logo.svg" alt="Logo">
+    </div>
+    
+    <div id="sideBar" class="bar">
+      <nav class="navigation">
+          <div class="close-menu-box">
+            <img id="closeMenu" class="close-menu" src="images/icon-close-menu.svg" alt="">
+          </div>
+          <ul class="nav-ul">
+            <li class="li">
+              <figure id="FeaturesButton" class="fig">
+                <figcaption>Features</figcaption>
+                <img id="FeaturesArrowDown" class="arrow" src="images/icon-arrow-down.svg" alt="">
+                <img id="FeaturesArrowUp" class="arrow" src="images/icon-arrow-up.svg" alt="">
+              </figure>
+            </li>
+            <div id="Features" class="drop-1">
+              <ul class="drop-ul">
+                <li class="drop-li" > <img class="drop-img" src="images/icon-todo.svg" alt=""> Todo List</li>
+                <li class="drop-li" > <img class="drop-img" src="images/icon-calendar.svg" alt=""> Calendar</li>
+                <li class="drop-li" > <img class="drop-img" src="images/icon-reminders.svg" alt=""> Reminders</li>
+                <li class="drop-li" > <img class="drop-img" src="images/icon-planning.svg" alt=""> Planing</li>
+              </ul>
+            </div>
+            <li class="li">
+              <figure id="CompanyButton" class="fig">
+                <figcaption>Company</figcaption>
+                <img id="CompanyArrowDown" class="arrow" src="images/icon-arrow-down.svg" alt="icon-arrow-down">
+                <img id="CompanyArrowUp" class="arrow" src="images/icon-arrow-up.svg" alt="">
+              </figure>
+            </li>
+            <div id="Company" class="drop-2">
+              <ul class="drop-ul">
+                <li class="drop-li" >History</li>
+                <li class="drop-li" >Our Team</li>
+                <li class="drop-li" >Blog</li>
+              </ul>
+            </div>
+            <li class="li">
+              <a href="#">Careers</a>
+            </li>
+            <li class="li">
+              <a href="#">About</a>
+            </li>
+          </ul>
+      </nav>
+      <div class="login-register">
+        <a href="#">Login</a>
+        <button class="reg-button">Register</button>
+      </div>
+    </div>
+    <img id="menu" class="menu-img" src="images/icon-menu.svg" alt="">
+    
+  </header>
+
+
+  <main id="main">
+    <div class="main-img">
+      <img class="desk-img"  src="images/image-hero-desktop.png" alt="">
+      <img class="mob-img" src="images/image-hero-mobile.png" alt="">
+    </div>
+    <div class="main-content">
+      <div class="main-text">
+        <h1 class="title">Make <br> remote work</h1>
+        <p class="text">Get your team in sync, no matter your location. <br> Streamline processes, 
+          create team rituals, and watch productivity soar.</p>
+          <button class='lern-more-button'>Learn more</button>
+      </div>
+      <div class="logos">
+        <img src="images/client-databiz.svg" alt="Databiz logo">
+        <img src="images/client-audiophile.svg" alt="Audiophile logo">
+        <img src="images/client-meet.svg" alt="Meet logo">
+        <img src="images/client-maker.svg" alt="Maker logo">
+      </div>
+    </div>
+    
+  </main>
+
+  <div class="attribution">
+    Coded by <a href="#">Ovik Gukeyan</a>.
+  </div>
+  
+  
+  
+
+  <script src="index.js"></script>
+</body>
+</html>
